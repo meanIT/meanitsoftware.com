@@ -1,0 +1,9 @@
+{
+  "name": "meanitsoftware.com",
+  "scripts": {
+    "start": "serve ./public"
+  },
+  "devDependencies": {
+    "serve": "14.1.2"
+  }
+}

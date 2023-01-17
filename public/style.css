@@ -1,0 +1,201 @@
+:root {
+  --orange: #E37941;
+  --light-blue: #42E3DD;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', 'Verdana', sans-serif;
+}
+
+a {
+  color: var(--light-blue);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.txt-orange {
+  color: var(--orange) !important;
+}
+
+.section {
+  margin-bottom: 80px;
+}
+
+.hero {
+  background-image: url('/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav .left {
+  flex-grow: 0;
+}
+
+.nav .left img {
+  width: auto;
+  height: 100px;
+}
+
+.nav .middle {
+  flex-grow: 1;
+}
+
+.nav .right {
+  flex-grow: 0;
+  width: 100px;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-button {
+  font-size: 1.25em;
+  color: white;
+  background-color: var(--light-blue);
+  padding: 0.25em 0.5em;
+  padding-bottom: 0.33em;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.our-technologies h2 {
+  text-align: center;
+}
+
+.our-technologies .technologies {
+  display: flex;
+}
+
+.our-technologies .technologies .technology {
+  padding: 10px;
+  width: 33.3333%;
+}
+
+.our-technologies .tech-overview {
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 10px;
+  height: 450px;
+}
+
+.our-technologies .tech-overview img {
+  width: 50%;
+}
+
+.our-services h2 {
+  text-align: center;
+}
+
+.our-services .service {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+}
+
+.our-services .service img {
+  width: 220px;
+}
+
+.our-services .service .service-logo {
+  flex-grow: 0;
+  width: 240px;
+  padding: 10px;
+}
+
+.our-services .service .service-copy {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.our-partners {
+  text-align: center;
+}
+
+.our-partners .partner {
+  display: inline-block;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.our-partners .partner img {
+  height: 60px;
+  width: auto;
+}
+
+.our-partners .cta {
+  width: 300px;
+  background-color: #e6e6e6;
+  padding: 15px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+  }
+
+  .our-technologies .technologies {
+    display: block;
+  }
+
+  .our-technologies .technologies .technology {
+    width: calc(100% - 20px);
+  }
+
+  .our-technologies .technologies .tech-overview {
+    height: auto;
+  }
+
+  .our-services .service {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .our-services .service .service-logo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .our-partners .partner img {
+    width: 100%;
+    height: auto;
+  }
+}
