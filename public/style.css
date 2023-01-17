@@ -78,7 +78,6 @@ p {
   color: white;
   background-color: var(--light-blue);
   padding: 0.25em 0.5em;
-  padding-bottom: 0.33em;
   border-radius: 8px;
   text-align: center;
 }
