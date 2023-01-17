@@ -1,6 +1,8 @@
 :root {
   --orange: #E37941;
   --light-blue: #42E3DD;
+  --medium-blue: #2E2BE3;
+  --light-green: #75E359;
 }
 
 body {
@@ -10,7 +12,7 @@ body {
 }
 
 a {
-  color: var(--light-blue);
+  color: var(--medium-blue);
   text-decoration: none;
 }
 
@@ -75,7 +77,7 @@ p {
 
 .contact-button {
   font-size: 1.25em;
-  color: white;
+  color: black;
   background-color: var(--light-blue);
   padding: 0.25em 0.5em;
   border-radius: 8px;
@@ -164,7 +166,7 @@ p {
   }
 
   .container {
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     position: relative;
   }
