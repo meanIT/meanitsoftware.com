@@ -161,7 +161,7 @@ p {
 
 @media (max-width: 767px) {
   .hero {
-    width: 100%;
+    width: calc(100% - 20px);
     height: auto;
   }
 
