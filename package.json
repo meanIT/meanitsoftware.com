@@ -1,7 +1,7 @@
 {
   "name": "meanitsoftware.com",
   "scripts": {
-    "start": "serve ./public"
+    "start": "serve ./public -p 9002"
   },
   "devDependencies": {
     "serve": "14.1.2"

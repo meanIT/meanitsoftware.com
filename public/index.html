@@ -6,177 +6,193 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png">
 
-    <meta name="keywords" content="nodejs consulting, nodejs developer">
-    <meta name="description" content="MeanIT Software is a full stack web development and SEO agency.">
-    
+    <meta name="keywords" content="AI SaaS, applied AI engineering, AI platforms, data-driven solutions">
+    <meta name="description" content="MeanIT Software builds production-grade AI platforms and data-driven solutions for organizations.">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
     <meta property="og:title" content="MeanIT Software"/>
     <meta property="og:image" content="https://meanitsoftware.com/images/logo.png"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://meanitsoftware.com"/>
-    <meta property="og:description" content="MeanIT Software is a full stack web development and SEO agency."/>
-  
-    <link rel="stylesheet" href="/style.css" />
+    <meta property="og:description" content="MeanIT Software builds production-grade AI platforms and data-driven solutions for organizations."/>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-brand-orange: #E37941;
+        --color-brand-dark: #1a2332;
+        --color-brand-blue: #2563eb;
+      }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" />
+    <style>
+      body { font-family: 'Open Sans', 'Verdana', sans-serif; }
+    </style>
   </head>
 
-  <body>
-    <div class="section hero">
-      <div class="nav">
-        <div class="left">
-          <img src="/images/logo-small.png" width="300" height="148" />
-        </div>
-        <div class="middle">&nbsp;</div>
-        <div class="right">
-          <a href="https://forms.gle/vpnMYC92MBS1mhqu8" target="_blank">
-            <div class="contact-button">Contact</div>
+  <body class="m-0 p-0 text-gray-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+      <div class="flex items-center gap-2">
+        <img src="/images/logo-small.png" alt="MeanIT" class="h-12 w-auto" />
+      </div>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#capabilities" class="text-brand-orange font-semibold text-sm hover:text-brand-orange/80">AI Capabilities</a>
+        <a href="#services" class="text-gray-600 text-sm hover:text-gray-900">Products &amp; Platforms</a>
+        <a href="#partners" class="text-gray-600 text-sm hover:text-gray-900">Clients</a>
+        <a href="#founder" class="text-gray-600 text-sm hover:text-gray-900">About</a>
+        <a href="https://forms.gle/vpnMYC92MBS1mhqu8" target="_blank"
+           class="bg-brand-orange text-white text-sm font-semibold px-5 py-2 rounded-md hover:bg-brand-orange/90 transition">
+          Contact Us
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="capabilities" class="bg-gradient-to-br from-gray-50 via-blue-50/30 to-gray-100 border-b border-gray-200">
+      <div class="max-w-7xl mx-auto px-6 py-16 md:py-24 flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/2">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight text-brand-dark">
+            AI SaaS &amp; Applied<br>
+            <span class="text-brand-orange">AI Engineering</span>
+          </h1>
+          <p class="mt-6 text-gray-600 text-lg leading-relaxed max-w-md">
+            Building production-grade AI platforms and data-driven solutions for organizations
+          </p>
+          <a href="#services"
+             class="mt-8 inline-flex items-center gap-2 bg-brand-orange text-white font-semibold px-6 py-3 rounded-md hover:bg-brand-orange/90 transition">
+            Explore AI Capabilities
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
           </a>
         </div>
-      </div>
-
-      <div class="container">
-        <h1>We're building software for companies looking for <span class="txt-orange">bespoke solutions</span></h1>
-      </div>
-    </div>
-
-    <div class="section our-technologies">
-      <div class="container">
-        <h2>Our Technologies</h2>
-
-        <div class="technologies">
-          <div class="technology">
-            <div class="tech-overview">
-              <div>
-                <img src="/images/frontend1.png">
-              </div>
-              <h3>Frontend</h3>
-              <div>
-                <p>
-                  We build robust, visually stunning applications that users love and developers love to work with.
-                  Our current tech stack is Vue, vanilla JavaScript, and HTML/CSS to build dynamic and responsive interfaces.
-                  We prioritize reliability, portability and ease of maintenance.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="technology">
-            <div class="tech-overview">
-              <div>
-                <img src="/images/backend1.png">
-              </div>
-              <h3>Backend</h3>
-              <div>
-                <p>
-                  We use proven frameworks and technologies for building high performance APIs and backend services.
-                  Our current tech stack is Node.js and Mongoose for APIs and MongoDB for data storage.
-                  We deploy on a variety of platforms depending on client needs, including Netlify, GCP, Microsoft Azure Functions, and Railway.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="technology">
-            <div class="tech-overview">
-              <div>
-                <img src="/images/seo1.png">
-              </div>
-              <h3>SEO</h3>
-              <div>
-                We use SEMRush for search traffic monitoring, and Surfer SEO for keyword research.
-                We also make heavy use of Google Lighthouse for validating our pages, and we target a Lighthouse score of 100 for marketing pages.
-              </div>
-            </div>
-          </div>
+        <div class="md:w-1/2 flex justify-center">
+          <img src="https://res.cloudinary.com/drfhhq8wu/image/upload/v1770842732/ai-vibes_cdvlov.webp" alt="AI Engineering Illustration"
+               class="max-w-full h-auto rounded-xl shadow-lg max-h-80 object-cover" />
         </div>
       </div>
-    </div>
+    </section>
 
+    <!-- Trusted By Section -->
+    <section id="partners" class="py-10 border-b border-gray-200">
+      <div class="max-w-7xl mx-auto px-6">
+        <p class="text-center text-gray-400 text-sm mb-8">Trusted By:</p>
+        <div class="flex flex-wrap items-center justify-center gap-8 md:gap-14">
+          <img src="/images/mongodb.svg" alt="MongoDB" class="h-8 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition" />
+          <img src="/images/datastax.svg" alt="DataStax" class="h-6 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition" />
+          <img src="/images/temporal.svg" alt="Temporal" class="h-7 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition" />
+          <img src="https://cdn.prod.website-files.com/6364589726c9c303218bbaf4/63645b3c1854abe5a921174c_ZEVO_Logotype_Off-White_RGB.avif" alt="Zevo" class="h-7 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition" />
+        </div>
+      </div>
+    </section>
 
-    <div class="section our-services">
-      <div class="container">
-        <h2>Our Services</h2>
+    <!-- Feature Cards Section -->
+    <section id="services" class="py-16 bg-gray-50 border-b border-gray-200">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-8">
 
-        <div class="services">
-          <div class="service">
-            <div class="service-logo">
-              <img src="/images/frontend.svg" width="290" height="244">
+          <!-- Card 1: AI-Powered SaaS Solutions -->
+          <div class="bg-white rounded-xl p-8 text-center shadow-sm border border-gray-100 hover:shadow-md transition">
+            <div class="flex justify-center mb-6">
+              <img src="/images/frontend.svg" alt="AI-Powered SaaS" class="h-20 w-20 object-contain" />
             </div>
-            <div class="service-copy">
-              <h3>Full Stack Application Development</h3>
-              <div>
-                <p>
-                  Got the next great idea?
-                  Want to build a scalable MVP fast?
-                  We build high performance web applications on top of tools that let us get you from idea to revenue in days, not months.
-                </p>
-              </div>
+            <h3 class="font-bold text-lg text-brand-dark mb-3">AI-Powered SaaS Solutions</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">
+              Advanced AI applications for modern enterprises.
+            </p>
+          </div>
+
+          <!-- Card 2: Intelligent Data Processing -->
+          <div class="bg-white rounded-xl p-8 text-center shadow-sm border border-gray-100 hover:shadow-md transition">
+            <div class="flex justify-center mb-6">
+              <img src="/images/backend.svg" alt="Intelligent Data Processing" class="h-20 w-20 object-contain" />
+            </div>
+            <h3 class="font-bold text-lg text-brand-dark mb-3">Intelligent Data Processing</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">
+              Extracting insights from complex data.
+            </p>
+          </div>
+
+          <!-- Card 3: Secure & Scalable Architecture -->
+          <div class="bg-white rounded-xl p-8 text-center shadow-sm border border-gray-100 hover:shadow-md transition">
+            <div class="flex justify-center mb-6">
+              <img src="/images/seo.svg" alt="Secure & Scalable Architecture" class="h-20 w-20 object-contain" />
+            </div>
+            <h3 class="font-bold text-lg text-brand-dark mb-3">Secure &amp; Scalable Architecture</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">
+              Robust systems for mission-critical needs.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet Our Founder Section -->
+    <section id="founder" class="py-16">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-brand-dark mb-10">Meet Our Founder</h2>
+
+        <div class="flex flex-col md:flex-row bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
+          <!-- Founder Photo -->
+          <div class="md:w-1/3 bg-gray-100 flex items-center justify-center p-6">
+            <div class="w-56 h-64 rounded-lg overflow-hidden bg-gray-200">
+              <img src="https://res.cloudinary.com/drfhhq8wu/image/upload/v1770842989/val_mhuf6k.webp" alt="Val Karpov"
+                   class="w-full h-full object-cover" />
             </div>
           </div>
 
-          <div class="service">
-            <div class="service-logo">
-              <img src="/images/backend.svg" width="290" height="244">
-            </div>
-            <div class="service-copy">
-              <h3>Fractional Developer Relations</h3>
-              <div>
-                <p>
-                  Want to increase developer adoption of your SaaS business?
-                  We work with clients to build their organic traffic and make their offering easier for developers to integrate with.
-                  We write blog posts, develop sample applications, and build custom libraries; all with your brand's SEO in mind.
-                </p>
-              </div>
-            </div>
-          </div>
+          <!-- Founder Info -->
+          <div class="md:w-2/3 p-8 md:p-10">
+            <h3 class="text-2xl font-bold text-brand-dark">Valeri Karpov</h3>
+            <p class="text-gray-500 mt-1">Founder &amp; CEO</p>
 
-          <div class="service">
-            <div class="service-logo">
-              <img src="/images/seo.svg" width="290" height="244">
+            <p class="text-brand-orange font-semibold mt-5">
+              Engineer, Author, Open Source Leader
+            </p>
+
+            <div class="mt-5 space-y-2 text-gray-600 text-sm leading-relaxed">
+              <p>Incubated his first startup while studying <strong>computer science at Princeton</strong>.</p>
+              <p>Creator of the <strong>MEAN Stack</strong> and maintainer of <strong>Mongoose.js</strong>.</p>
+              <p>Advisor to startups and Fortune 500 companies.</p>
             </div>
-            <div class="service-copy">
-              <h3>SEO Services</h3>
-              <div>
-                Wondering why you're not showing up on Google?
-                We offer a variety of services related to improving your SEO.
-                We do keyword research, build a content marketing strategy, and build links by producing content on external sites, including our portfolio of high authority sites.
-              </div>
-            </div>
+
+            <a href="https://forms.gle/vpnMYC92MBS1mhqu8" target="_blank"
+               class="mt-6 inline-flex items-center gap-2 bg-brand-blue text-white font-semibold text-sm px-5 py-2.5 rounded-md hover:bg-brand-blue/90 transition">
+              Learn More
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-
-    <div class="section our-partners">
-      <div class="container">
-        <h2>Our Partners</h2>
-        <div class="partner">
-          <img src="/images/mongodb.svg" width="1113" height="300">
-        </div>
-        <div class="partner">
-          <img src="/images/temporal.svg" width="1571" height="391">
-        </div>
-        <div class="partner">
-          <img src="/images/tidelift.svg" width="190" height="33">
-        </div>
-        <div class="partner">
-          <img src="/images/datastax.svg" width="200" height="31">
-        </div>
-        <div class="partner">
-          <img src="/images/terra-vera.svg" width="922" height="233">
-        </div>
-
-        <div class="cta">
-          <h3>We're Ready to Get Started</h3>
-          <a href="https://forms.gle/vpnMYC92MBS1mhqu8" target="_blank">
-            Contact Us >>
-          </a>
-        </div>
+    <!-- Based in South Florida Section -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0">
+        <img src="https://res.cloudinary.com/drfhhq8wu/image/upload/v1770842524/Miami_Beach_on_the_shorline_looking_south_xx5hom.jpg" alt="South Florida"
+             class="w-full h-full object-cover opacity-30" />
+        <div class="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent"></div>
       </div>
-    </div>
+      <div class="relative max-w-7xl mx-auto px-6 py-20 md:py-28">
+        <h2 class="text-3xl md:text-4xl font-bold text-brand-dark">
+          Based in South Florida, <span class="font-normal text-gray-500">Working Worldwide</span>
+        </h2>
+        <p class="mt-4 text-gray-500 max-w-md">
+          Partnering with companies across the U.S. and internationally.
+        </p>
+      </div>
+    </section>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" />
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-white py-10">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <img src="/images/logo-small.png" alt="MeanIT" class="h-10 w-auto mx-auto mb-4" />
+        <p class="text-gray-400 text-sm">&copy; 2026 MeanIT Software. All rights reserved.</p>
+      </div>
+    </footer>
+
   </body>
 </html>
