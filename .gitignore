@@ -100,5 +100,8 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+# Tailwind build output
+public/tw.css
+
 # TernJS port file
 .tern-port
