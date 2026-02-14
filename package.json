@@ -1,5 +1,6 @@
 {
   "name": "meanitsoftware.com",
+  "version": "1.0.0",
   "scripts": {
     "build": "npm run build:css",
     "build:css": "npx @tailwindcss/cli -i src/input.css -o public/tw.css --minify",
