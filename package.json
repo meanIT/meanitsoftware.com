@@ -1,9 +1,14 @@
 {
   "name": "meanitsoftware.com",
+  "version": "1.0.0",
   "scripts": {
-    "start": "serve ./public"
+    "build": "npm run build:css",
+    "build:css": "npx @tailwindcss/cli -i src/input.css -o public/tw.css --minify",
+    "start": "serve ./public -p 9002"
   },
   "devDependencies": {
-    "serve": "14.1.2"
+    "@tailwindcss/cli": "^4.1.18",
+    "serve": "14.1.2",
+    "tailwindcss": "^4.1.18"
   }
 }
