@@ -32,20 +32,38 @@
   <body class="m-0 p-0 text-gray-800 antialiased">
 
     <!-- Navigation -->
-    <nav class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
-      <div class="flex items-center gap-2">
-        <img src="/images/logo-small.png" alt="MeanIT" class="h-12 w-auto" />
-      </div>
-      <div class="hidden md:flex items-center gap-8">
-        <a href="#capabilities" class="text-brand-orange font-semibold text-sm hover:text-brand-orange/80">Overview</a>
-        <a href="#services" class="text-gray-600 text-sm hover:text-gray-900">Services</a>
-        <a href="#partners" class="text-gray-600 text-sm hover:text-gray-900">Clients</a>
-        <a href="#founder" class="text-gray-600 text-sm hover:text-gray-900">About</a>
-        <a href="/municipal" class="text-gray-600 text-sm hover:text-gray-900">Public sector services</a>
-        <a href="https://calendly.com/vkarpov207/30min" target="_blank"
-           class="bg-brand-orange text-white text-sm font-semibold px-5 py-2 rounded-md hover:bg-brand-orange/90 transition">
-             Book a Call
-        </a>
+    <nav class="px-6 py-4 max-w-7xl mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <img src="/images/logo-small.png" alt="MeanIT" class="h-12 w-auto" />
+        </div>
+
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#capabilities" class="text-brand-orange font-semibold text-sm hover:text-brand-orange/80">Overview</a>
+          <a href="#services" class="text-gray-600 text-sm hover:text-gray-900">Services</a>
+          <a href="#partners" class="text-gray-600 text-sm hover:text-gray-900">Clients</a>
+          <a href="#founder" class="text-gray-600 text-sm hover:text-gray-900">About</a>
+          <a href="/municipal" class="text-gray-600 text-sm hover:text-gray-900">Public sector services</a>
+          <a href="https://calendly.com/vkarpov207/30min" target="_blank"
+             class="bg-brand-orange text-white text-sm font-semibold px-5 py-2 rounded-md hover:bg-brand-orange/90 transition">
+               Book a Call
+          </a>
+        </div>
+
+        <details class="md:hidden relative">
+          <summary class="list-none cursor-pointer border border-gray-300 rounded-md px-3 py-2 text-sm font-semibold text-gray-700 bg-white hover:bg-gray-50">Menu</summary>
+          <div class="absolute right-0 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg p-3 z-20">
+            <div class="flex flex-col gap-3">
+              <a href="#capabilities" class="text-brand-orange font-semibold text-sm">Overview</a>
+              <a href="#services" class="text-gray-700 text-sm">Services</a>
+              <a href="#partners" class="text-gray-700 text-sm">Clients</a>
+              <a href="#founder" class="text-gray-700 text-sm">About</a>
+              <a href="/municipal" class="text-gray-700 text-sm">Public sector services</a>
+              <a href="https://calendly.com/vkarpov207/30min" target="_blank"
+                 class="bg-brand-orange text-white text-sm font-semibold px-4 py-2 rounded-md text-center">Book a Call</a>
+            </div>
+          </div>
+        </details>
       </div>
     </nav>
 
